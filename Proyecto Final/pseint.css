@@ -1,0 +1,36 @@
+.Tarjeta {
+    background-color: #b5d789ec ;
+    border-radius: 50px;
+    padding: 30px;
+    margin: 50px;
+    text-align: center;
+    display: inline-block;
+    border: 2px solid #080808;
+    width: auto;
+    height: auto;
+       
+    
+
+    }
+
+    body {
+
+        background-image: url("https://i.pinimg.com/1200x/07/16/2b/07162b4c48ac4469d84c0afd3d613434.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    
+    }
+
+    .btn { 
+    background-color: #f3f3f3ec; 
+    color: #000000; 
+    border: none; 
+    padding: 12px; 
+    border-radius: 150px;
+    cursor: pointer; 
+    text-decoration: none; 
+    font-weight: bold; 
+    text-align: center;
+
+    }
