@@ -1,0 +1,56 @@
+.Tarjeta {
+    background-color: #ffffa7 ;
+    border-radius: 50px;
+    padding: 30px;
+    margin: 50px;
+    text-align: center;
+    display: inline-block;
+    border: 2px solid #5b4723;
+    width: 700px;
+    
+       
+    }
+
+
+    @font-face {
+    font-family:"Cute";
+    src: url(Caveat-Bold.ttf);
+    }
+
+    body {
+        font-family: "Cute";
+        font-size: 20px;
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaBolqhXAGtSjDmTejFgzKrUCtDvsVgkqGrM6Lxd_wwCEV6OFRoEbgYP0&s=10");
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    
+    }
+
+    .btn { 
+     font-family: "Cute";
+    font-size: 20px;
+    background-color: #a3792aec; 
+    color: #000000; 
+    border: none; 
+    padding: 12px; 
+    border-radius: 150px;
+    cursor: pointer; 
+    text-decoration: none; 
+    font-weight: bold; 
+    text-align: center;
+    transition: background-color 0.8s ease;
+    }
+
+    .tarjeta-resultados {
+    opacity: 0;
+    background-color: #ffffa7 ;
+    border-radius: 50px;
+    padding: 30px;
+    margin: 50px;
+    text-align: center;
+    display: inline-block;
+    border: 2px solid #5b4723;
+    width: auto;
+    
+}

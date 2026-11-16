@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseint</title>   <link rel="stylesheet" href="pseint.css">
+    <link rel="icon" href="https://cdn3.emoji.gg/emojis/3969-kerowithhearts.png" width="64px" height="64px">
+</head>
+
+<body>
+    <main class="container" id="Cuestionario">
+    <div style="display: flex; justify-content: center; align-items: flex-start;gap:3vw; flex-wrap: wrap;">
+        <div class= "Tarjeta">
+        <p class="pregunta">¿Qué es Pseint?</p>
+        <br>
+        <button class="btn" onclick="validarpseint(this, true, 'lenguaje')">A) Un lenguaje de programación</button>
+        <button class="btn" onclick="validarpseint(this, false, 'lenguaje')">B) Un editor de texto</button>
+          </div>
+         
+
+         
+         <div class= "Tarjeta">
+        <p class="pregunta">¿Qué ciclo de repetición se utiliza cuando sabemos cuántas veces debemos repetir una acción?</p>
+        <br>
+        <button class="btn" onclick="validarpseint(this, true, 'ciclo')">A) Para</button>
+        <button class="btn" onclick="validarpseint(this, false, 'ciclo')">B) Segun </button>
+          </div>
+         
+
+
+
+         <div class= "Tarjeta">
+        <p class="pregunta">¿Qué instrucción usamos para mostrar información en la pantalla?</p>
+        <br>
+        <button class="btn" onclick="validarpseint(this, false, 'instruccion')">A) Leer</button>
+        <button class="btn" onclick="validarpseint(this, true, 'instruccion')">B) Escribir</button>
+          </div>
+        
+
+
+
+         <div class= "Tarjeta">
+        <p class="pregunta">El ciclo Para necesita un valor inicial y un límite para controlar sus repeticiones.</p>
+        <br>
+        <button class="btn" onclick="validarpseint(this, true, 'limite')">A) Verdadero </button>
+        <button class="btn" onclick="validarpseint(this, false, 'limite')">B) Falso </button>
+          </div>
+
+
+
+         <div class= "Tarjeta">
+        <p class="pregunta">¿Qué instrucción utilizamos para tomar una decisión según si una condición se cumple o no?</p>
+        <br>
+        <button class="btn" onclick="validarpseint( this, false, 'decision')">A) Definir </button>
+        <button class="btn" onclick="validarpseint(this, true, 'decision')">B) Si/Entonces </button>
+             
+         
+     </div>
+    </main>
+    <div style="display: flex; justify-content: center;">
+        <div class= "tarjeta-resultados" id="tarjeta">
+             <h2> Resultados</h2>
+             <p id="correctas"> Respuestas correctas:</p>
+             <p id="incorrectas"> Respuestas incorrectas:</p>
+             <hr>
+            <a class="back" href="pagina principal.html"><img src="https://cdn3.emoji.gg/emojis/49829-hellokittyback.gif" width="80px" height="80px"> </a>
+        </div>
+          <script src="pseint.js"></script>
+</body>
+</html>
