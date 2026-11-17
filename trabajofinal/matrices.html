@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matriz</title>  <link rel="stylesheet" href="matrices.css">
+    <link rel="icon" href="https://cdn3.emoji.gg/emojis/96983-chococat.gif" width="64px" height="64px">    
+</head>
+
+<body>
+    <main class="container" id="Cuestionario">
+    <div style="display: flex; align-items: center; flex-wrap: wrap; flex-direction: column;">
+        <div class= "Tarjeta">
+        <p class="pregunta">Una matriz es una estructura de datos que permite almacenar elementos organizados en filas y columnas.</p>
+        <br>
+        <button class="btn" onclick="validarmatriz('correcto')">A) Verdadero</button>
+        <button class="btn" onclick="validarmatriz('B')">B) Falso </button>
+          </div>
+         
+
+          <div class= "Tarjeta">
+        <p class="pregunta">¿Cuántas filas y columnas tiene una matriz de orden [3x5] </p>
+        <br>
+        <button class="btn" onclick="validarmatriz('A')">A) 3 columnas y 5 filas</button>
+        <button class="btn" onclick="validarmatriz('correcto')">B) 3 filas y 5 columnas</button>
+          </div>
+         
+
+
+          <div class= "Tarjeta">
+        <p class="pregunta">En PseInt, el ciclo Para se utiliza para reccorer las posiciones de una matriz</p>
+        <br>
+        <button class="btn" onclick="validarmatriz('correcto')">A) Verdadero</button>
+        <button class="btn" onclick="validarmatriz('B')">B) Falso</button>
+          </div>
+         
+
+
+          <div class= "Tarjeta">
+        <p class="pregunta">¿Cuántos elementos contiene una matriz de [4x2]? </p>
+        <br>
+        <button class="btn" onclick="validarmatriz('correcto')">A) 8 elementos</button>
+        <button class="btn" onclick="validarmatriz('B')">B) 6 elementos</button>
+          </div>
+        
+
+
+          <div class= "Tarjeta">
+        <p class="pregunta">¿Qué hay que hacer antes de comenzar una matriz? </p>
+        <br>
+        <button class="btn" onclick="validarmatriz('A')">A) Iniciar sin definir los valores </button>
+        <button class="btn" onclick="validarmatriz('correcto')">B) Definir los valores a ingresar</button>
+        <hr>
+            <a class="back" href="pagina principal.html"><img src="https://cdn3.emoji.gg/emojis/49829-hellokittyback.gif" width="80px" height="80px"> </a>
+          </div>
+         
+        <div class= "Tarjeta" style="display: flex; align-items: center;  flex-direction: column;">
+    <h1> Ejemplo de Matriz </h1>
+    <h2> Pon todos los botones de color azul</h2>
+    <table id="matriz">
+      <tr>
+        <th><button class="table-button" onclick="toque(this)"> </button></th>
+        <th><button class="table-button" onclick="toque(this)"> </button></th>
+        <th><button class="table-button" onclick="toque(this)"> </button></th>
+      </tr>
+
+       <tr>
+        <th><button class="table-button" onclick="toque(this)"> </button></th>
+        <th><button class="table-button" onclick="toque(this)"> </button></th>
+        <th><button class="table-button" onclick="toque(this)"> </button></th>
+      </tr>
+
+       <tr>
+        <th><button class="table-button" onclick="toque(this)"> </button></th>
+        <th><button class="table-button" onclick="toque(this)"> </button></th>
+        <th><button class="table-button" onclick="toque(this)"> </button></th>
+      </tr>
+    </table>
+    </div>
+  
+  </div>
+    </main>
+    <script src="matrices.js"></script>
+</body>
+</html>
