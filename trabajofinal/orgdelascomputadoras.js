@@ -60,7 +60,7 @@ function validarOrg(boton,respuesta, id) {
 function Validarbotonespresionados() {
     for (let i = 0; i < botonesPresionados.length; i++) {  
         if (!botonesPresionados[i]) {
-            return false;
+            return;
         }
     }
     Resultados();
